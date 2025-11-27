@@ -35,7 +35,7 @@ document.getElementById("sortingHatQuiz").addEventListener("submit", function (e
     }
   }
 
-  // display result (make it prettier)
+  // display result
   const pretty = topHouse.charAt(0).toUpperCase() + topHouse.slice(1);
   alert(`The Hat has spoken... You belong to ${pretty.toUpperCase()}! 🪄`);
 });
